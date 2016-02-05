@@ -164,6 +164,7 @@ function initializeGLPlot(scene, fullLayout, canvas, gl) {
         * is overridden with a function that removes the container only.
         */
         showNoWebGlMsg(scene);
+        console.log('no webgl')
     }
 
     if(!scene.staticMode) {
